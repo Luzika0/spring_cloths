@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.util.List;
 
 import org.springdoc.core.annotations.ParameterObject;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -18,8 +19,7 @@ import com.example.Spring_Cloths.dto.productDTO.dtoResponse;
 import com.example.Spring_Cloths.service.serviceDto;
 
 
-
-
+@CrossOrigin(origins = "*")
 @RestController
 public class controller {
     private final serviceDto serviceDto;
