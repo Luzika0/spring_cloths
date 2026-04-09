@@ -11,7 +11,7 @@ public class Mapper {
     dtoResponse.setPrice(productModels.getPrice());
     dtoResponse.setCategory(productModels.getCategory());
     dtoResponse.setDescription(productModels.getDescription());
-    dtoResponse.setImage("45.77.247.150:4000/Uploads/"+productModels.getImage());
+    dtoResponse.setImage("localhost:4000/Uploads/"+productModels.getImage());
     return dtoResponse;
 }
     public static productModels ToEntity(dtoRequest dtoRequest){
