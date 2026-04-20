@@ -7,11 +7,12 @@ import com.example.Spring_Cloths.models.productModels;
 public class Mapper {
     public static dtoResponse Response(productModels productModels){
     dtoResponse dtoResponse = new dtoResponse();
+    dtoResponse.setId(productModels.getId());
     dtoResponse.setName(productModels.getName());
     dtoResponse.setPrice(productModels.getPrice());
     dtoResponse.setCategory(productModels.getCategory());
     dtoResponse.setDescription(productModels.getDescription());
-    dtoResponse.setImage("localhost:4000/Uploads/"+productModels.getImage());
+    dtoResponse.setImage("https://ulta.apsarallc.ggff.net/Uploads/"+productModels.getImage());
     return dtoResponse;
 }
     public static productModels ToEntity(dtoRequest dtoRequest){

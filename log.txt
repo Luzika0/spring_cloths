@@ -1,0 +1,21 @@
+nohup: ignoring input
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.4)
+
+2026-04-10T09:35:41.236Z  INFO 108031 --- [Spring_Cloths] [           main] c.e.S.SpringClothsApplication            : Starting SpringClothsApplication v0.0.1-SNAPSHOT using Java 21.0.10 with PID 108031 (/root/spring_cloths/target/Spring_Cloths-0.0.1-SNAPSHOT.jar started by root in /root/spring_cloths)
+2026-04-10T09:35:41.266Z  INFO 108031 --- [Spring_Cloths] [           main] c.e.S.SpringClothsApplication            : No active profile set, falling back to 1 default profile: "default"
+2026-04-10T09:35:47.629Z  INFO 108031 --- [Spring_Cloths] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-10T09:35:47.911Z  INFO 108031 --- [Spring_Cloths] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 244 ms. Found 1 JPA repository interface.
+2026-04-10T09:35:52.166Z  INFO 108031 --- [Spring_Cloths] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 4000 (http)
+2026-04-10T09:35:52.233Z  INFO 108031 --- [Spring_Cloths] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-10T09:35:52.235Z  INFO 108031 --- [Spring_Cloths] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-04-10T09:35:52.680Z  INFO 108031 --- [Spring_Cloths] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 11059 ms
+2026-04-10T09:35:57.384Z  INFO 108031 --- [Spring_Cloths] [           main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-10T09:35:57.705Z  INFO 108031 --- [Spring_Cloths] [           main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
