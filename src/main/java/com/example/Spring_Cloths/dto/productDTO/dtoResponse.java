@@ -1,8 +1,5 @@
 package com.example.Spring_Cloths.dto.productDTO;
 
-
-
-
 import lombok.Data;
 
 @Data

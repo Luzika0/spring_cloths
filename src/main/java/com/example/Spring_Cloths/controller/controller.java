@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestPart;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
@@ -21,6 +22,7 @@ import com.example.Spring_Cloths.service.serviceDto;
 
 @CrossOrigin(origins = "*")
 @RestController
+@RequestMapping("/api")
 public class controller {
     private final serviceDto serviceDto;
     public  controller(serviceDto serviceDto){
